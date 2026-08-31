@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050811">
+  <meta name="description" content="9 Meridian — intelligent operations, one clear horizon.">
+  <meta name="author" content="9 Meridian">
+  <title>9 Meridian — Intelligent Management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <div id="landingView" class="site-view">
+    <header class="site-header" id="siteHeader">
+      <a class="brand" href="#top" aria-label="9 Meridian home">
+        <span class="brand-mark" aria-hidden="true"><span>9</span></span>
+        <span class="brand-copy"><strong>9 Meridian</strong><small>Intelligent operations</small></span>
+      </a>
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <a href="#what">What is 9 Meridian</a><a href="#features">Features</a><a href="#stories">Feedback</a><button class="nav-dashboard" data-action="dashboard">Dashboard</button>
+      </nav>
+      <div class="nav-actions"><button class="button button-quiet" data-auth="signin">Log in</button><button class="button button-primary button-small" data-auth="signup">Create account</button></div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <canvas id="meridianCanvas" aria-hidden="true"></canvas><div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-index" aria-hidden="true"><span>01</span><i></i><span>09</span></div>
+        <div class="hero-copy reveal visible">
+          <div class="eyebrow"><span class="signal-dot"></span> System online · Meridian OS 2.0</div>
+          <h1>One horizon for<br><span>intelligent management.</span></h1>
+          <p>9 Meridian turns scattered work into a live, intelligent operating system—so your team can see clearly, decide quickly, and move as one.</p>
+          <div class="hero-actions"><button class="button button-primary" data-auth="signup">Start your workspace <span>↗</span></button><button class="button button-glass" id="demoLogin">Explore the live demo <span>→</span></button></div>
+          <div class="hero-trust"><div class="avatar-stack" aria-hidden="true"><span>AM</span><span>RK</span><span>JL</span></div><p><strong>Built for teams in motion</strong><br>Fast setup. No card required.</p></div>
+        </div>
+        <div class="orb-caption" aria-hidden="true"><span>MERIDIAN CORE</span><b>LIVE</b><small>Signal density · 98.4%</small></div>
+        <a class="scroll-cue" href="#what"><span>Scroll to discover</span><i>↓</i></a>
+      </section>
+
+      <section class="section what-section" id="what">
+        <div class="section-orbit" aria-hidden="true"></div>
+        <div class="section-head reveal"><p class="kicker">What is 9 Meridian?</p><h2>Your business, finally<br><span>speaking one language.</span></h2><p>We connect your signals, people, and priorities in one calm command layer. The result is less busywork and more forward motion.</p></div>
+        <div class="identity-grid">
+          <article class="identity-card tilt-card reveal" data-tilt><div class="card-no">01</div><div class="feature-icon">⌁</div><h3>Unified intelligence</h3><p>Bring customer activity, team health, and operational signals into a single real-time view.</p><span class="card-link">One source of truth <b>↗</b></span></article>
+          <article class="identity-card tilt-card reveal" data-tilt><div class="card-no">02</div><div class="feature-icon">◇</div><h3>Decisions with context</h3><p>Surface the patterns that matter and turn live information into clear, practical next steps.</p><span class="card-link">See what is next <b>↗</b></span></article>
+          <article class="identity-card tilt-card reveal" data-tilt><div class="card-no">03</div><div class="feature-icon">↗</div><h3>Momentum, automated</h3><p>Remove repetitive coordination with smart workflows that keep every handoff moving.</p><span class="card-link">Move without friction <b>↗</b></span></article>
+        </div>
+      </section>
+
+      <section class="section feature-section" id="features">
+        <div class="feature-layout">
+          <div class="feature-copy reveal"><p class="kicker">The operating layer</p><h2>Clarity that compounds.</h2><p>Every part of 9 Meridian is designed to make complexity feel lighter—not hide it behind another dashboard.</p><div class="feature-list"><button class="feature-tab active" data-feature="pulse"><span>01</span><b>Live operational pulse</b><i>→</i></button><button class="feature-tab" data-feature="workspace"><span>02</span><b>Adaptive workspaces</b><i>→</i></button><button class="feature-tab" data-feature="feedback"><span>03</span><b>Closed-loop feedback</b><i>→</i></button><button class="feature-tab" data-feature="security"><span>04</span><b>Privacy by design</b><i>→</i></button></div></div>
+          <div class="product-visual reveal" id="productVisual">
+            <div class="visual-top"><span><i></i> Meridian workspace</span><span>LIVE · 09:41</span></div>
+            <div class="mini-dashboard"><div class="mini-nav"><b>9</b><i></i><i></i><i></i><i></i></div><div class="mini-main"><div class="mini-title"><span>Good morning, Alex</span><small>Here is your operational pulse.</small></div><div class="mini-stats"><article><small>ACTIVE PROJECTS</small><b>24</b><em>+12%</em></article><article><small>TEAM VELOCITY</small><b>91%</b><em>+7%</em></article><article><small>SATISFACTION</small><b>4.9</b><em>+0.3</em></article></div><div class="mini-chart"><span>Momentum</span><svg viewBox="0 0 500 150" preserveAspectRatio="none"><defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00e5ff" stop-opacity=".35"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient></defs><path class="area" d="M0,130 C70,112 80,80 145,94 S220,45 275,62 S360,30 410,38 S470,18 500,8 L500,150 L0,150Z"/><path class="line" d="M0,130 C70,112 80,80 145,94 S220,45 275,62 S360,30 410,38 S470,18 500,8"/></svg></div></div></div>
+            <div class="signal-card"><span>LIVE SIGNAL</span><b id="featureMetric">+18.2%</b><small id="featureDescription">Momentum across active work</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stories-section" id="stories">
+        <div class="section-head reveal"><p class="kicker">Customer signal</p><h2>Built around the people<br><span>who move work forward.</span></h2></div>
+        <div class="quote-grid">
+          <article class="quote-card reveal"><div class="quote-mark">“</div><p>We stopped managing tools and started managing the business. The difference was immediate.</p><div><span class="quote-avatar">AK</span><span><b>Anika Kapoor</b><small>COO · Northstar Labs</small></span><em>★★★★★</em></div></article>
+          <article class="quote-card reveal"><div class="quote-mark">“</div><p>9 Meridian gives every conversation context. Our Monday meetings are finally about decisions.</p><div><span class="quote-avatar">DM</span><span><b>Dev Malhotra</b><small>Founder · Common Thread</small></span><em>★★★★★</em></div></article>
+          <article class="quote-card reveal"><div class="quote-mark">“</div><p>The experience is unusually calm for something this powerful. Adoption took days, not months.</p><div><span class="quote-avatar">SL</span><span><b>Sara Lin</b><small>VP Operations · Axiom</small></span><em>★★★★★</em></div></article>
+        </div>
+      </section>
+
+      <section class="section final-cta"><div class="cta-orb" aria-hidden="true"><i></i><i></i><span>9</span></div><div class="reveal"><p class="kicker">Your next chapter</p><h2>Meet your business<br>at its clearest.</h2><p>Build a more intelligent way to operate in minutes.</p><button class="button button-primary" data-auth="signup">Create your workspace <span>↗</span></button></div></section>
+    </main>
+
+    <footer><a class="brand footer-brand" href="#top"><span class="brand-mark"><span>9</span></span><span class="brand-copy"><strong>9 Meridian</strong><small>Intelligent operations</small></span></a><p>© 2026 9 Meridian. Designed for forward motion.</p><div><a href="#what">Company</a><a href="#features">Platform</a><a href="mailto:hello@9meridian.com">Contact</a></div></footer>
+  </div>
+
+  <div id="dashboardView" class="dashboard-view" hidden>
+    <aside class="dash-sidebar" id="dashSidebar">
+      <a class="brand dash-brand" href="#" data-action="home"><span class="brand-mark"><span>9</span></span><span class="brand-copy"><strong>9 Meridian</strong><small>Customer portal</small></span></a>
+      <nav class="dash-nav" aria-label="Dashboard navigation"><button class="active" data-panel="overview"><span>⌂</span>Overview</button><button data-panel="feedback"><span>◇</span>Feedback</button><button data-panel="activity"><span>⌁</span>Activity</button><button data-panel="settings"><span>⚙</span>Settings</button></nav>
+      <div class="sidebar-help"><span>MERIDIAN SUPPORT</span><b>Need a hand?</b><p>Our team is one message away.</p><a href="mailto:support@9meridian.com">Contact support →</a></div>
+      <div class="sidebar-profile"><div class="profile-avatar" data-user-initials>AD</div><div><b data-user-name>Alex Dawson</b><span><i></i> Online</span></div><button id="logoutButton" aria-label="Log out">↗</button></div>
+    </aside>
+    <div class="dash-shell">
+      <header class="dash-header"><button class="dash-menu" id="dashMenu" aria-label="Toggle dashboard menu">☰</button><div><span class="dash-breadcrumb">Workspace / <b id="panelTitle">Overview</b></span></div><div class="dash-header-actions"><button aria-label="Notifications">♢<i></i></button><div class="profile-pill"><span class="profile-avatar" data-user-initials>AD</span><span><b data-user-name>Alex Dawson</b><small>Workspace owner</small></span></div></div></header>
+      <main class="dash-content">
+        <section class="dash-panel active" id="overviewPanel">
+          <div class="dashboard-welcome"><div><p class="kicker">Monday, August 31</p><h1>Welcome back, <span data-user-first>Alex</span>.</h1><p>Your workspace is moving in the right direction.</p></div><button class="button button-glass" data-panel-jump="feedback">Share feedback <span>↗</span></button></div>
+          <div class="metric-grid">
+            <article class="metric-card"><div><span>ACTIVE PROJECTS</span><i>↗ 12%</i></div><b data-count="24">0</b><p>Across 4 focused workstreams</p><svg viewBox="0 0 160 42"><path d="M1 37 C25 31,27 22,45 25 S69 12,84 18 S111 5,128 12 S147 5,159 2"/></svg></article>
+            <article class="metric-card"><div><span>TEAM VELOCITY</span><i>↗ 7%</i></div><b data-count="91" data-suffix="%">0</b><p>Last 30 days</p><div class="metric-ring" style="--value:91"><span>91</span></div></article>
+            <article class="metric-card"><div><span>CUSTOMER SIGNAL</span><i>↗ 0.3</i></div><b data-count="4.9" data-decimals="1">0</b><p>From 128 responses</p><div class="metric-stars">★★★★★</div></article>
+            <article class="metric-card accent"><div><span>WORKSPACE HEALTH</span><i>OPTIMAL</i></div><b data-count="98" data-suffix="%">0</b><p>All systems operational</p><div class="status-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+          </div>
+          <div class="overview-grid"><article class="dash-card momentum-card"><div class="card-head"><div><span>OPERATIONAL MOMENTUM</span><h2>Workspace rhythm</h2></div><select aria-label="Chart range"><option>Last 7 days</option><option>Last 30 days</option></select></div><div class="chart-wrap"><div class="chart-axis"><span>100</span><span>75</span><span>50</span><span>25</span><span>0</span></div><svg viewBox="0 0 700 250" preserveAspectRatio="none"><defs><linearGradient id="dashArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00e5ff" stop-opacity=".28"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient></defs><path class="grid-lines" d="M0 10H700M0 67H700M0 124H700M0 181H700M0 238H700"/><path class="chart-area" d="M0 205 C70 194 85 135 150 158 S240 120 300 128 S380 75 445 96 S530 63 590 70 S655 33 700 24 L700 250 L0 250Z"/><path class="chart-line" d="M0 205 C70 194 85 135 150 158 S240 120 300 128 S380 75 445 96 S530 63 590 70 S655 33 700 24"/><circle cx="445" cy="96" r="5"/></svg><div class="chart-labels"><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span></div></div></article><article class="dash-card focus-card"><div class="card-head"><div><span>FOCUS QUEUE</span><h2>Needs attention</h2></div><button aria-label="More options">•••</button></div><div class="focus-list"><div><i class="focus-icon blue">↗</i><span><b>Campaign review</b><small>Due today · Marketing</small></span><em>High</em></div><div><i class="focus-icon violet">◇</i><span><b>Research synthesis</b><small>Tomorrow · Product</small></span><em>Medium</em></div><div><i class="focus-icon cyan">⌁</i><span><b>Customer interviews</b><small>Sep 02 · Success</small></span><em>Medium</em></div></div><button class="text-button">View full activity →</button></article></div>
+        </section>
+
+        <section class="dash-panel" id="feedbackPanel">
+          <div class="panel-heading"><div><p class="kicker">Your voice shapes the product</p><h1>Share feedback.</h1><p>Tell us what is working, what is not, and what would make 9 Meridian better.</p></div><div class="feedback-score"><b>4.9</b><span>★★★★★</span><small>Average customer rating</small></div></div>
+          <div class="feedback-layout">
+            <form class="dash-card feedback-form" id="feedbackForm" novalidate>
+              <div class="form-section"><label>How was your experience?</label><div class="rating-group" role="radiogroup" aria-label="Experience rating"><button type="button" data-rating="1" aria-label="Very poor"><span>😞</span><small>Not good</small></button><button type="button" data-rating="2" aria-label="Poor"><span>😕</span><small>Could improve</small></button><button type="button" data-rating="3" aria-label="Okay"><span>😐</span><small>Okay</small></button><button type="button" data-rating="4" aria-label="Good"><span>🙂</span><small>Good</small></button><button type="button" data-rating="5" aria-label="Excellent"><span>🤩</span><small>Excellent</small></button></div><input type="hidden" name="rating" id="ratingInput"></div>
+              <div class="field-row"><label class="field"><span>Category</span><select name="category" required><option value="">Choose a category</option><option>Feature Request</option><option>Bug Report</option><option>General Feedback</option><option>UI/UX Experience</option></select><small class="field-error"></small></label><label class="field"><span>Subject</span><input name="subject" maxlength="80" placeholder="A short, clear summary" required><small class="field-error"></small></label></div>
+              <label class="field"><span>Tell us more</span><textarea name="message" id="feedbackMessage" maxlength="600" rows="7" placeholder="What happened? What would you like to see instead?" required></textarea><small class="counter"><i id="charCount">0</i> / 600</small><small class="field-error"></small></label>
+              <div class="field"><span>Attachment <em>Optional</em></span><label class="dropzone" id="dropzone"><input type="file" id="fileInput" accept="image/*,.pdf,.txt"><i>↥</i><b>Drop a file here or <u>browse</u></b><small>PNG, JPG, PDF or TXT · max 5 MB</small></label><div class="file-preview" id="filePreview" hidden></div><small class="field-error" id="fileError"></small></div>
+              <div class="form-footer"><p><span>◈</span>Your feedback is private and read by our product team.</p><button class="button button-primary" type="submit" id="submitFeedback">Submit feedback <span>↗</span></button></div>
+            </form>
+            <aside class="dash-card history-card"><div class="card-head"><div><span>RECENT FEEDBACK</span><h2>Your submissions</h2></div><button id="refreshFeedback" aria-label="Refresh feedback">↻</button></div><div class="feedback-history" id="feedbackHistory"><div class="history-empty"><i>◇</i><p>No feedback yet.</p><small>Your submissions will appear here.</small></div></div></aside>
+          </div>
+        </section>
+
+        <section class="dash-panel" id="activityPanel"><div class="empty-panel"><span>⌁</span><p class="kicker">Signal archive</p><h1>Activity is gathering.</h1><p>Workspace events and team updates will appear here as your Meridian grows.</p><button class="button button-glass" data-panel-jump="overview">Return to overview</button></div></section>
+        <section class="dash-panel" id="settingsPanel"><div class="panel-heading"><div><p class="kicker">Workspace preferences</p><h1>Settings.</h1><p>Keep your profile and communication preferences up to date.</p></div></div><form class="dash-card settings-card" id="settingsForm"><div class="field-row"><label class="field"><span>Full name</span><input name="fullName" data-settings-name required></label><label class="field"><span>Email address</span><input name="email" data-settings-email type="email" disabled></label></div><label class="toggle-line"><span><b>Product updates</b><small>Occasional notes about new Meridian capabilities.</small></span><input type="checkbox" name="updates" checked><i></i></label><label class="toggle-line"><span><b>Feedback follow-ups</b><small>Let our product team contact you about submissions.</small></span><input type="checkbox" name="followups" checked><i></i></label><button class="button button-primary" type="submit">Save preferences</button></form></section>
+      </main>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="authModal" hidden><section class="modal auth-modal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><button class="modal-close" data-close-modal aria-label="Close authentication">×</button><div class="modal-brand"><span class="brand-mark"><span>9</span></span><div><b>9 Meridian</b><small>Secure customer access</small></div></div><div class="auth-tabs" role="tablist"><button id="signinTab" role="tab" aria-selected="true" data-auth-tab="signin">Sign in</button><button id="signupTab" role="tab" aria-selected="false" data-auth-tab="signup">Create account</button><i></i></div><div class="auth-heading"><p class="kicker" id="authKicker">Welcome back</p><h2 id="authTitle">Enter your workspace.</h2><p id="authSubtitle">Use your account details to continue.</p></div><form id="authForm" novalidate><label class="field signup-only" hidden><span>Full name</span><div class="input-wrap"><i>◇</i><input name="fullName" autocomplete="name" placeholder="Alex Morgan"></div><small class="field-error"></small></label><label class="field"><span>Email address</span><div class="input-wrap"><i>@</i><input name="email" type="email" autocomplete="email" placeholder="you@company.com" required></div><small class="field-error"></small></label><label class="field"><span>Password</span><div class="input-wrap"><i>⌁</i><input name="password" type="password" autocomplete="current-password" placeholder="At least 8 characters" required><button type="button" class="password-toggle" aria-label="Show password">◉</button></div><div class="password-strength signup-only" hidden><i><span></span></i><small>Password strength: <b>—</b></small></div><small class="field-error"></small></label><label class="field signup-only" hidden><span>Confirm password</span><div class="input-wrap"><i>⌁</i><input name="confirmPassword" type="password" autocomplete="new-password" placeholder="Repeat your password"></div><small class="field-error"></small></label><div class="auth-options signin-only"><label class="check"><input type="checkbox" name="remember"><i>✓</i><span>Remember me</span></label><button type="button" id="forgotPassword">Forgot password?</button></div><label class="check signup-only terms" hidden><input type="checkbox" name="terms"><i>✓</i><span>I agree to the Terms of Service and Privacy Policy.</span></label><div class="form-alert" id="authAlert" role="alert" hidden></div><button class="button button-primary auth-submit" type="submit"><span class="submit-label">Sign in securely</span><i class="spinner" aria-hidden="true"></i></button><div class="auth-divider signin-only"><span>or use the instant demo</span></div><button type="button" class="button demo-button signin-only" id="modalDemoLogin"><span class="demo-avatar">D</span><span><b>Continue as Demo User</b><small>demo@9meridian.com</small></span><i>→</i></button></form><p class="secure-note"><span>◇</span> Secured with signed sessions and encrypted password storage.</p></section></div>
+
+  <div class="modal-backdrop" id="confirmModal" hidden><section class="modal confirm-modal" role="alertdialog" aria-modal="true" aria-labelledby="confirmTitle"><div class="confirm-icon">↗</div><h2 id="confirmTitle">Leave your workspace?</h2><p>You will need to sign in again to access your dashboard.</p><div><button class="button button-quiet" data-cancel-logout>Stay signed in</button><button class="button button-danger" id="confirmLogout">Log out</button></div></section></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

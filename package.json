@@ -1,0 +1,9 @@
+{
+  "name": "9-meridian-customer-portal",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "9 Meridian landing page, secure mock authentication, and customer feedback dashboard.",
+  "scripts": { "start": "node server.js", "dev": "node server.js", "test": "node tests/smoke.js" },
+  "engines": { "node": ">=18" }
+}
